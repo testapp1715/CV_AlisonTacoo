@@ -1,0 +1,14 @@
+{
+  "cash_usd": 100,
+  "holdings": [
+    { "id": "bitcoin", "amount": 0.005, "avg_cost_usd": 60000 },
+    { "id": "ethereum", "amount": 0.1, "avg_cost_usd": 3000 }
+  ],
+  "watchlist": ["bitcoin", "ethereum", "solana"],
+  "rules": {
+    "rsi_oversold": 30,
+    "rsi_overbought": 70,
+    "drop_7d_pct": 15,
+    "max_position_pct": 40
+  }
+}
